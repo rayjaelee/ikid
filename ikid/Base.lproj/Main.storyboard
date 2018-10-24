@@ -531,9 +531,8 @@
                                     <constraint firstAttribute="width" constant="321" id="n1a-gR-rH4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Be Boundless" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBC-xd-dBq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Boundless" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBC-xd-dBq">
                                 <rect key="frame" x="155" y="99" width="105" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -542,9 +541,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3H6-7C-pHI" firstAttribute="centerY" secondItem="WV5-WL-sCa" secondAttribute="centerY" id="5ym-ut-1Ui"/>
+                            <constraint firstItem="CBC-xd-dBq" firstAttribute="top" secondItem="8SO-WR-e8b" secondAttribute="top" constant="79" id="Lom-wI-dWa"/>
+                            <constraint firstItem="CBC-xd-dBq" firstAttribute="leading" secondItem="8SO-WR-e8b" secondAttribute="leading" constant="155" id="ecM-zx-B8i"/>
+                            <constraint firstItem="CBC-xd-dBq" firstAttribute="top" secondItem="8SO-WR-e8b" secondAttribute="top" constant="20" id="feN-mG-18p"/>
+                            <constraint firstItem="8SO-WR-e8b" firstAttribute="trailing" secondItem="CBC-xd-dBq" secondAttribute="trailing" constant="154" id="hgN-MI-Uye"/>
                             <constraint firstItem="3H6-7C-pHI" firstAttribute="centerX" secondItem="WV5-WL-sCa" secondAttribute="centerX" id="l4z-9i-tXf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8SO-WR-e8b"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="feN-mG-18p"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="feN-mG-18p"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="akf-1D-JVR"/>
                 </viewController>
