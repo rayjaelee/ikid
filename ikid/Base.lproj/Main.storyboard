@@ -47,7 +47,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="76Y-Gt-LaZ"/>
+                    <tabBarItem key="tabBarItem" title="Dad" id="76Y-Gt-LaZ"/>
                     <connections>
                         <outlet property="btnSwitch" destination="pcs-tF-svr" id="yGl-lc-9LI"/>
                     </connections>
@@ -163,7 +163,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QLN-YX-gQy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="xLa-QA-IrC"/>
+                    <tabBarItem key="tabBarItem" title="Pun" id="xLa-QA-IrC"/>
                     <connections>
                         <outlet property="btnFlip" destination="2nQ-xl-ByD" id="r8j-pd-bsR"/>
                     </connections>
@@ -409,7 +409,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZJ1-j7-3HN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rcX-B7-17k"/>
+                    <tabBarItem key="tabBarItem" title="Knock Knock" id="rcX-B7-17k"/>
                     <connections>
                         <outlet property="btnKnock" destination="g76-WY-GI3" id="tLm-dW-ZPi"/>
                     </connections>
@@ -442,7 +442,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V7d-Lx-aAO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="6kL-RQ-eQ5"/>
+                    <tabBarItem key="tabBarItem" title="Top" id="6kL-RQ-eQ5"/>
                     <connections>
                         <outlet property="btnFlip" destination="ysa-jt-i6l" id="Tsv-g0-E2K"/>
                     </connections>
@@ -516,7 +516,7 @@
             </objects>
             <point key="canvasLocation" x="1887" y="-358"/>
         </scene>
-        <!--Item-->
+        <!--Meme-->
         <scene sceneID="MjQ-Jv-0c1">
             <objects>
                 <viewController id="WLk-3N-MQQ" sceneMemberID="viewController">
@@ -559,7 +559,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="akf-1D-JVR"/>
+                    <tabBarItem key="tabBarItem" title="Meme" id="akf-1D-JVR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uh-ZU-a5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
